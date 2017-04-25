@@ -7,7 +7,7 @@ public class Demo11 {
 	
 
 	    public static void main(String[] args) {
-	        // declaration and instantiation of objects/variables
+	      
 	    	WebDriver driver ;
 	    	System.setProperty("webdriver.gecko.driver","E:\\driver\\geckodriver.exe");
 	    	driver = new FirefoxDriver();
@@ -15,7 +15,7 @@ public class Demo11 {
 	        String expectedTitle = "Welcome: Mercury Tours";
 	        String actualTitle = "";
 
-	        // launch Fire fox and direct it to the Base URL
+	        
 	        driver.get(baseUrl);
 
 	        // get the actual value of the title
